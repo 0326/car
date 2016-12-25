@@ -12,8 +12,8 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: http://quanfeng.tech/car
+root: /car/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -69,27 +69,6 @@ theme: magnetic
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: <repository url>
-  branch: [branch]
-  message: [message]
-
-
-# Header
-menu:
-  Home: /
-  Archives: /archives
-
-# Default post title
-default_post_title: Untitled
-
-# Default post cover index page
-default_cover_index: "http://placehold.it/450x450"
-default_cover_detail: "http://placehold.it/1300x500"
-
-# Social Accounts
-twitter_url: "quanfeng.tech"
-facebook_url: "quanfeng.tech"
-behance_url: "quanfeng.tech"
-googleplus_url: "quanfeng.tech"
-dribble_url: "quanfeng.tech"
-rss_url: "quanfeng.tech"
+  repo: git@github.com:0326/car.git
+  branch: master
+  message: 
